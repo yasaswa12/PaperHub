@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Paper Archive Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="hero-section">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="logo">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>Paper Hub</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#browse">Browse Papers</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contribute">Contribute</a></li>
+                    <li><a href="https://github.com" target="_blank">View on GitHub</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <div class="hero-icon"><i class="fa-solid fa-book"></i></div>
+                <h1>Question Paper Archive Hub</h1>
+                <p>Your one-stop solution for all previous years' question papers. Access organized collections across
+                    all departments and semesters.</p>
+                <div class="hero-buttons">
+                    <a href="#browse" class="btn btn-primary">
+                        <i class="fa-solid fa-search"></i> Browse Papers
+                    </a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="features-section">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-card-icon"><i class="fa-solid fa-sitemap"></i></div>
+                        <h3>All Departments</h3>
+                        <p>Access papers from CSE, ME, EE, CE, ECE, and more.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h3>Easy Search</h3>
+                        <p>Filter by department, semester, and subject to find papers quickly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-icon"><i class="fa-solid fa-download"></i></div>
+                        <h3>Free Download</h3>
+                        <p>No login required. Download PDFs with one click.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="browse" class="browse-section">
+            <div class="container">
+                <h2 style="text-align:center;">Browse Question Papers</h2>
+                <p class="section-subtitle">Select your department and semester to find papers</p>
+                <form class="browse-form">
+                    <div class="form-row">
+                        <select name="department">
+                            <option value="ce">CE - Civil Engineering</option>
+                            <option value="cse">CSE - Computer Science</option>
+                            <option value="cse">ECE - Electronics and Communication</option>
+                            <option value="cse">EEE - Electrical and Electronics</option>
+                            <option value="me">ME - Mechanical Engineering</option>
+                        </select>
+                        <select name="semester">
+                            <option value="all">All Semesters</option>
+                            <option value="1">Semester 1</option>
+                            <option value="2">Semester 2</option>
+                            <option value="2">Semester 3</option>
+                            <option value="2">Semester 4</option>
+                            <option value="2">Semester 5</option>
+                            <option value="2">Semester 6</option>
+                            <option value="2">Semester 7</option>
+                            <option value="2">Semester 8</option>
+                        </select>
+                    </div>
+                    <div class="search-subject">
+                        <i class="fa-solid fa-search"></i>
+                        <input type="text" placeholder="Search by subject name or code...">
+                    </div>
+                </form>
+                <div class="browse-results">
+                    <div class="no-papers-found">
+                        <div class="no-papers-icon"><i class="fa-solid fa-file-circle-xmark"></i></div>
+                        <h3>No Papers Found</h3>
+                        <p>Try adjusting your filters or search query.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About This Platform</h2>
+                <div class="about-grid">
+                    <div class="about-who-we-are">
+                        <span class="tag">By Students, For Students</span>
+                        <h3>Who We Are</h3>
+                        <p>We are a group of students who understand how valuable previous question papers can be for
+                            exam preparation. This platform is built with the goal of helping fellow students access old
+                            question papers with ease, anytime, anywhere.</p>
+                        <p>No more scattered files, endless searching, or broken links. Everything you need is organized
+                            and available in one place.</p>
+                    </div>
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <div class="about-card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                            <h4>Our Mission</h4>
+                            <p>To make exam preparation easier by providing free, centralized access to previous year
+                                question papers for all students.</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="about-card-icon"><i class="fa-solid fa-users"></i></div>
+                            <h4>Community Driven</h4>
+                            <p>This platform grows with contributions from students like you. Share papers and help your
+                                juniors succeed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-use-us-section">
+            <div class="container">
+                <h2 class="section-title">Why Use This Site?</h2>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>All Subjects, All Semesters</span>
+                    </div>
+                    <div class="why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Easy Search & Filter</span>
+                    </div>
+                    <div class="why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Download Anytime</span>
+                    </div>
+                    <div class="why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Regularly Updated</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contribute" class="contribute-section">
+            <div class="container">
+                <div class="contribute-header">
+                    <div class="contribute-icon"><i class="fa-solid fa-upload"></i></div>
+                    <h2>Contribute Papers</h2>
+                    <p class="section-subtitle">Help your juniors by uploading question papers</p>
+                </div>
+                <form class="upload-form">
+                    <div id="drop-zone" class="drop-zone">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                        <p>Drop your PDF here or click to browse</p>
+                        <span>Only PDF files are accepted</span>
+                        <input type="file" id="file-input" accept=".pdf" hidden>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="department-upload">Department *</label>
+                            <select id="department-upload" name="department-upload">
+                                <option value="ce">Civil Engineering</option>
+                                <option value="cse">Computer Science</option>
+                                <option value="cse">ECE - Electronics and Communication</option>
+                                <option value="cse">EEE - Electrical and Electronics</option>
+                                <option value="me">Mechanical Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="year-upload">Year *</label>
+                            <input type="number" id="year-upload" value="2025">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject-upload">Subject *</label>
+                            <select id="subject-upload" name="subject-upload">
+                                <option value="">Select a subject</option>
+                                <option value="maths">Mathematics</option>
+                                <option value="physics">Physics</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exam-type-upload">Exam Type *</label>
+                            <select id="exam-type-upload" name="exam-type-upload">
+                                <option value="end-term">End-term</option>
+                                <option value="mid-term">Mid-term</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="name-upload">Your Name (Optional)</label>
+                            <input type="text" id="name-upload" placeholder="Anonymous">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-upload">
+                        <i class="fa-solid fa-upload"></i> Upload Question Paper
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="get-in-touch-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have questions or want to contribute? We'd love to hear from you!</p>
+                <div class="touch-grid">
+                    <div class="touch-card">
+                        <div class="touch-icon email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>Send us your queries, suggestions, or feedback</p>
+                        <a href="mailto:papers@yourcollege.edu">papers@yourcollege.edu <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="touch-card">
+                        <div class="touch-icon contribute">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                        </div>
+                        <h3>Contribute</h3>
+                        <p>Have question papers? Help your juniors succeed</p>
+                        <a href="#contribute">Upload Papers <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="touch-card">
+                        <div class="touch-icon feedback">
+                            <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+                        <h3>Feedback</h3>
+                        <p>Share your experience or report issues with the platform</p>
+                        <a href="#">Send Feedback <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="how-to-contribute">
+                    <h3>How to Contribute</h3>
+                    <ol>
+                        <li><span>1</span>Email your scanned question papers to our address</li>
+                        <li><span>2</span>Include department, subject, semester, and year</li>
+                        <li><span>3</span>We'll review and add it to our archive within 24 hours</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>Paper Hub</h4>
+                    <p>Your one-stop solution for accessing previous years' question papers. Built by students, for
+                        students.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#browse">Browse Papers</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contribute">Contribute Papers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <ul>
+                        <li><a href="mailto:papers@yourcollege.edu"><i class="fa-solid fa-envelope"></i>
+                                papers@yourcollege.edu</a></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i> View on GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Question Paper Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
